@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+html { overflow-y: scroll; }
+
+:root {
+    /*-------- Color scheme ---------*/
+    /* Primary */
+    --cyan: hsl(176, 50%, 47%);
+    --dark-cyan: hsl(176, 72%, 28%);
+    /* Neutral */
+
+    --black: hsl(0, 0%, 0%);
+    --gray: hsl(0, 0%, 48%);
+    --light-gray: rgb(236, 236, 236);
+}
+
+
+
+body {
+    font-size: 16px;
+    font-family: 'Rubik', sans-serif;
+    background-color: rgb(235, 235, 235);
+    position: absolute;
+}
+
+body.modal-on {
+    overflow: hidden;  
+}
+
+body a {
+    text-decoration: none;
+ 
+}
+
+
+body p {
+    color: #fff;
+    line-height: 1.5em;
+}
